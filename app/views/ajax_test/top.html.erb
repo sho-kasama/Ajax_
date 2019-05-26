@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  </head>
+  <body>
+    <div id="request_ajax_update" >
+      <%= form_tag(ajax_test_update_path, method: :post, remote: true) { %>
+        <%= text_field :data, :text %>
+        <%= submit_tag 'Post AJAX' %>
+      <% } %>
+    </div>
+
+    <hr>
+    <div id="updated_by_ajax" >
+      DEFAULT
+    </div>
+    <hr>
+  </body>
+</html>
