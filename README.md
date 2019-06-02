@@ -1,24 +1,23 @@
-# README
+# Ajaxを理解するために作成した
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
 
-* Ruby version
+<a href="https://i.gyazo.com/4bbf33f0e1d95de1b54265aa80a721fe.gif">作ったやつ</a>
 
-* System dependencies
 
-* Configuration
+#### シーケンス
 
-* Database creation
+```
+Front : UserがinputしたTextをAjaxでBack End側にPost
+⬇︎
+⬇︎
+Back : PostされたTextとPartialを使って部分的に差し替えるHTMLをRenderingする
+⬇︎
+⬇︎
+Front : .coffee(JS)でAjaxのcallbackを受け取る
+⬇︎
+⬇︎
+Front : jQueryでHTMLの部分を差し替えてる
 
-* Database initialization
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```
