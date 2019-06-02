@@ -3,6 +3,8 @@
   <head>
   </head>
   <body>
+  <!-- Ajax RequestをPostするFormをもつブロック -->
+  <!-- Userが入力してtextを params[:data][:text]に詰めて,ajax_test/update にPostする -->
     <div id="request_ajax_update" >
       <%= form_tag(ajax_test_update_path, method: :post, remote: true) { %>
         <%= text_field :data, :text %>
@@ -11,6 +13,7 @@
     </div>
 
     <hr>
+    <!-- Ajax Callbackを受けてHTMLの部分更新をするブロック -->
     <div id="updated_by_ajax" >
       DEFAULT
     </div>
