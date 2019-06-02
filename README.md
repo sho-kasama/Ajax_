@@ -29,5 +29,5 @@ Front : jQueryでHTMLの部分を差し替えてる
 - [ ] <a href="https://github.com/sho-kasama/Ajax_/blob/master/app/assets/javascripts/ajax_test.coffee">.coffee(JS)でAjaxのcallbackを受け取る</a>
 
 
-- [ ] <a href="https://github.com/sho-kasama/Ajax_/blob/master/app/views/ajax_test/_ajax_partial.html.erb">
+- [ ] <a href="https://github.com/sho-kasama/Ajax_/blob/master/app/views/ajax_test/_ajax_partial.html.erb">解説</a>
 
